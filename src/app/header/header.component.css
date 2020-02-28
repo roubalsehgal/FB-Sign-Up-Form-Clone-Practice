@@ -1,0 +1,17 @@
+#header{
+    background-color: #3e5c9a;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    padding: 20px 20px 4px 20px;
+    width: 97%;
+}
+.header-login{
+    margin-left: 50%;
+    margin-top: 2%;
+}
+#user-name{
+    margin-right: 10px;
+}
+#user-pswrd{
+    margin-right: 5px;
+}

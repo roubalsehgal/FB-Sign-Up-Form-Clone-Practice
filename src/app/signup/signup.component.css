@@ -1,0 +1,23 @@
+.main-card{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.main-card input{
+    padding: 15px 40px 15px 10px;
+}
+::placeholder{
+    font-size: 20px;
+    text-align: left;
+}
+.user-details, .user-name{
+    margin-left: 50%;
+}
+#fname{
+    margin-right: 15px;
+}
+#btn{
+    background-color: #5d9649;
+    color: white;
+    padding: 4px 40px 4px 40px;
+    margin-left: 427px;
+}

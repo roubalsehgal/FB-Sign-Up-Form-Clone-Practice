@@ -1,0 +1,20 @@
+<br><br>
+<form (submit)="onAddPost()" method="POST">
+    <mat-card class="main-card">
+        <p style="font-size: 36px;"><b>Create an account.</b></p>
+        <mat-form-field>
+    
+            <div class="user-name" style="display: inline-flex;">
+                <input type="text" placeholder="First name" required [(ngModel)]="Fname" id="fname" size="20">
+                <input type="text" placeholder="Last name" required [(ngModel)]="Lname" id="lname" size="20"><br><br>
+            </div><br><br>
+            <div class="user-details">
+                <input type="email" placeholder="Email address" required [(ngModel)]="Email" size="54"><br><br>
+                <input type="tel" placeholder="Mobile no." required [(ngModel)]="Mobno" size="54"><br><br>
+                <input type="password" placeholder="New password" required [(ngModel)]="Pswrd" size="54"><br><br>
+                <input type="password"placeholder="Confirm password" required size="54"><br><br>
+            </div>
+            <button mat-raised-button type="submit" id="btn" (click)="onClickButton()">Sign up</button>
+        </mat-form-field>
+    </mat-card>
+</form>
